@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/scottlooney/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/Nargothrond/GAI_GameLevelsDev/NewLevels_Fall/RubyIsle-Wwise-teacher/ruby_isle_WwiseProject/ruby-isle-Wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/scottlooney/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/Nargothrond/GAI_GameLevelsDev/NewLevels_Fall/RubyIsle-Wwise-teacher/ruby_isle_WwiseProject/ruby-isle-Wwise/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/scottlooney/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/Nargothrond/GAI_GameLevelsDev/NewLevels_Fall/RubyIsle-Wwise-teacher/ruby_isle_WwiseProject/ruby-isle-Wwise/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/scottlooney/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/z:/Volumes/Nargothrond/GAI_GameLevelsDev/NewLevels_Fall/RubyIsle-Wwise-teacher/ruby_isle_WwiseProject/ruby-isle-Wwise/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3639196305" Name="Play_amb_IslandOutdoors" ObjectPath="\Events\Default Work Unit\Play_amb_IslandOutdoors"/>
+				<Event Id="4141769778" Name="Play_OneShot" ObjectPath="\Events\Default Work Unit\Play_OneShot"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="407002120" Language="SFX">
+					<ShortName>genPickup.wav</ShortName>
+					<Path>SFX/genPickup_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1029906051" Language="SFX">
+					<ShortName>amb_IslandOutdoors.wav</ShortName>
+					<Path>SFX/amb_IslandOutdoors_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2789F0ED-F598-466D-89EF-B5F31E141BB6}" SchemaVersion="80">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{2789F0ED-F598-466D-89EF-B5F31E141BB6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Reflector" ID="{70D02098-2010-4D0B-BD14-5DCDF6A43AF2}">
+					<ChildrenList>
+						<State Name="None" ID="{B31C218E-6A69-4933-B247-272A9F14387D}"/>
+						<State Name="Locked" ID="{7AC306FD-35B4-4CA3-BD67-2136BAB745F2}"/>
+						<State Name="Unlocked" ID="{97EDDD5D-5A96-4E55-B3F6-63A922E8987C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

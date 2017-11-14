@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3639196305	Play_amb_IslandOutdoors			\Default Work Unit\Play_amb_IslandOutdoors	
+	4141769778	Play_OneShot			\Default Work Unit\Play_OneShot	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	407002120	OneShot	Z:\Volumes\Nargothrond\GAI_GameLevelsDev\NewLevels_Fall\RubyIsle-Wwise-teacher\ruby_isle_WwiseProject\ruby-isle-Wwise\.cache\Mac\SFX\genPickup_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OneShot		117744
+	1029906051	amb_IslandOutdoors	Z:\Volumes\Nargothrond\GAI_GameLevelsDev\NewLevels_Fall\RubyIsle-Wwise-teacher\ruby_isle_WwiseProject\ruby-isle-Wwise\.cache\Mac\SFX\amb_IslandOutdoors_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\amb_IslandOutdoors		5644944
+

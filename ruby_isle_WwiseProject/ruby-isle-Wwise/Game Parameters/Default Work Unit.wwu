@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{97816B18-B47C-4EC9-A2D3-90A277212B4A}" SchemaVersion="80">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{97816B18-B47C-4EC9-A2D3-90A277212B4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ReflectorLock_Move_Value" ID="{36E8AC78-ABFB-4A19-A417-5C996DB3AC28}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

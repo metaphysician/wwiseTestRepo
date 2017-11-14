@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_OneShot" ID="{1FE280CF-FBFB-4324-88F6-06229FFE7E6F}">
+					<ChildrenList>
+						<Action Name="" ID="{0DBEB9D0-9B81-40A8-B4D7-A1744F7A4EAD}" ShortID="26330736">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OneShot" ID="{50722E66-F1B8-4764-BF0A-061092C72330}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="unused" ID="{670E1480-924A-45E5-93AE-93075CC5BC58}" ShortID="996004575">
+					<ChildrenList>
+						<Event Name="Set_Switch_unlocked" ID="{EF0634D1-0BF8-412A-A8B6-D0B4F51631A2}">
+							<ChildrenList>
+								<Action Name="" ID="{E371D777-8DA5-45A4-B0D9-CEA19811132E}" ShortID="406942985">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unlocked" ID="{709FAA00-D6B3-42A9-975D-FA803776DC91}" WorkUnitID="{EB0BE8F7-4947-40D1-9A89-C50B2897D688}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{491E75E2-0738-46D3-A9EA-79937B9FA512}" ShortID="885704909">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reflector-unlock" ID="{D6DE96D4-AA26-4BDA-84B0-B31C5213633A}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Switch_locked" ID="{286D2D8E-D6F1-48CC-BC29-A84FBF400A43}">
+							<ChildrenList>
+								<Action Name="" ID="{E9C644A2-3E31-4419-9D85-D208815BB3EA}" ShortID="738299953">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reflector-lock" ID="{64990B6D-C50E-4FFF-AE1B-CEED709BDF98}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ED3F45D3-E6DF-4741-8B82-BEE8D7C4AB4E}" ShortID="277306189">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Locked" ID="{EB69C025-9A45-42F3-8117-8E601688ACFE}" WorkUnitID="{EB0BE8F7-4947-40D1-9A89-C50B2897D688}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_reflector_lockout_mono" ID="{21DA3E6D-2DFF-4BDD-923B-A3ECF182F20E}">
+							<ChildrenList>
+								<Action Name="" ID="{4EEC1867-81F4-46D3-A9C7-22AAA08FA579}" ShortID="913216926">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reflector-lockout-mono" ID="{9C24F801-999C-4BAC-93F4-A22E414F0D13}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_ReflectorRotate" ID="{FE0F66EC-2032-4EAF-B314-886CEBE2C07B}">
+							<ChildrenList>
+								<Action Name="" ID="{0319276C-4C4C-4B73-88E3-096546BF1644}" ShortID="531312788">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ReflectorRotate" ID="{15D1E005-0FA8-4EE8-A204-051A06D99327}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EnvironmentEvents" ID="{0A46063E-F6DA-41E8-95E6-44E29B3F192C}" ShortID="486488089">
+					<ChildrenList>
+						<Event Name="Play_amb_IslandOutdoors" ID="{13DE2C02-2DAC-4424-AEB0-938224118821}">
+							<ChildrenList>
+								<Action Name="" ID="{F93D3C91-23C3-4151-8785-C5C12184483F}" ShortID="750058121">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_IslandOutdoors" ID="{63B1B3D5-9E4C-4441-9FB6-FD4CCC6C8538}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{857EDD1D-EA9C-4F51-9EFE-4DE199FE9E2B}" ShortID="1039336770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="random_ambiences" ID="{FD86F1BB-38D7-4B76-93FA-AD6BDAB2B2D0}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ObjectPickup" ID="{2D98F9AE-840E-4FF9-A49F-6733939CE0A5}">
+							<ChildrenList>
+								<Action Name="" ID="{2A46D996-4404-4EFE-9E3F-4C09401DEB65}" ShortID="373403864">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pickup_switch" ID="{1D8C7AA2-EA46-4C5E-84F9-5C1D30D6AC69}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door" ID="{567AB069-BC5D-40F5-8FC9-88D0C09C6F4C}">
+							<ChildrenList>
+								<Action Name="" ID="{831837D8-BF31-460B-B7A5-5DA3FFCBE0DC}" ShortID="31397756">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="random_doors" ID="{F1EBEF31-F8BA-467E-94A0-78574A3530BE}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_waves_lighthouse" ID="{643806BA-A462-4411-9BB3-5C14A1FE0279}">
+							<ChildrenList>
+								<Action Name="" ID="{793C457E-DBA3-4FB5-A014-6F41F3EA5BA0}" ShortID="481953815">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="waves_lighthouse" ID="{0B24B9FA-5960-4E06-B8D3-EF85C24E0547}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience2D_Filter" ID="{3FF3B5C5-6961-4000-AFF8-E0426F8EB29F}">
+							<ChildrenList>
+								<Action Name="" ID="{FC989FDF-7002-4A12-94FB-EE4AA5BDCB48}" ShortID="410923594">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Lowpass" Type="int16" Value="65"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_IslandOutdoors" ID="{63B1B3D5-9E4C-4441-9FB6-FD4CCC6C8538}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7AA817E5-0B76-4859-A99A-7768D2578BDA}" ShortID="547575743">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="Lowpass" Type="int16" Value="65"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="random_ambiences" ID="{FD86F1BB-38D7-4B76-93FA-AD6BDAB2B2D0}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience2D_NoFilter" ID="{DCDD376F-BC86-4FCD-A0FA-0A4D77F7DCFE}">
+							<ChildrenList>
+								<Action Name="" ID="{FB9D35B7-DFE3-4B92-80DC-9E749F7B7E21}" ShortID="773370751">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_IslandOutdoors" ID="{63B1B3D5-9E4C-4441-9FB6-FD4CCC6C8538}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{758A1533-67DB-47E6-B457-E8125B120ED3}" ShortID="157361335">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="random_ambiences" ID="{FD86F1BB-38D7-4B76-93FA-AD6BDAB2B2D0}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="CharacterEvents" ID="{03C0051D-1EFE-4239-896A-43C16AA6B1A3}" ShortID="840569513">
+					<ChildrenList>
+						<Event Name="Footstep_L" ID="{6F8B7B23-4760-4552-8D6D-69156A28DD28}">
+							<ChildrenList>
+								<Action Name="" ID="{84CD5064-DF98-495C-BA4E-83A9F13AA056}" ShortID="706639040">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_L" ID="{AB59F983-90C5-4001-AE8A-08C0E691749C}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footstep_R" ID="{E4F5A144-289A-4D0B-A22B-4E32F208E3B7}">
+							<ChildrenList>
+								<Action Name="" ID="{23403F8B-DE6C-44FA-9B91-C16783FB14E6}" ShortID="840504887">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_R" ID="{0C16FB38-E455-412F-842B-6EA82B532D24}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PuzzleEvents" ID="{6C58FF82-85C4-48F6-9642-718FC2E4AFB6}" ShortID="872910108">
+					<ChildrenList>
+						<Folder Name="MarblePuzzle" ID="{FCFDF822-623E-4EF0-893A-6701A6571CBB}" ShortID="616704585">
+							<ChildrenList>
+								<Event Name="MP_HandlePull" ID="{2599ACD8-60E7-4A34-AD85-D78317302C24}">
+									<ChildrenList>
+										<Action Name="" ID="{DEB13D2B-BC77-4A6D-9EBB-A5E794093AF4}" ShortID="1310498">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leverPull" ID="{539472D6-51BD-49CB-8BF2-055FE78C54D3}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="MP_MarbleDrop" ID="{EC594BA4-957F-4D35-A33F-22C319C7F6C2}">
+									<ChildrenList>
+										<Action Name="" ID="{0122D7EB-8E97-470E-B0B8-2121491E2AC5}" ShortID="267745095">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dropMarble2" ID="{532C45AF-A9DD-4CC6-84B0-890B7A9DAD49}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="MP_MarbleMove" ID="{C7CFDCC9-4275-43D4-88B9-D511DE36D5DB}"/>
+								<Event Name="MP_HandleWiggle" ID="{2F18A81D-0ED2-4E8D-A05A-EBDA825805FC}"/>
+								<Event Name="MP_HandleAppear" ID="{34FA128D-9F6D-4CE3-8E41-1E5C16907A76}"/>
+								<Event Name="MP_MarbleReturn" ID="{E0FD46D4-17B5-4269-B6B6-D40FC2D14E64}"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="OrganPuzzle" ID="{5C1ABCEA-923C-407E-B3E0-0C5725467D02}" ShortID="733731156"/>
+						<Folder Name="ReflectorAlignmentPuzzle" ID="{94C60327-8C0F-4E32-B65E-142C9C6A088D}" ShortID="53568133">
+							<ChildrenList>
+								<Event Name="R_MoveLock" ID="{966CF078-590D-4068-BFA0-117BC47E5631}"/>
+								<Event Name="R_RotateL" ID="{53386E69-40FD-4782-8005-BC0435AFAE11}">
+									<ChildrenList>
+										<Action Name="" ID="{4C23C9A4-DBD6-467E-B7FD-658A050FA949}" ShortID="297142843">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="rotateL" ID="{05567775-358E-40C0-BF98-EE5F777B4141}" WorkUnitID="{EB0BE8F7-4947-40D1-9A89-C50B2897D688}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{FBE5B01E-70E5-4B9E-B05B-868C3C5B4F07}" ShortID="778552909">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="reflector_moveBottom" ID="{216F0F8D-75CC-4FAA-B1BD-6AAD521C7C28}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="R_RotateR" ID="{8D2E69E6-8FD2-4B43-8CAE-757B1BB6A2EC}"/>
+								<Event Name="R_HandleRotate" ID="{1E40332A-A24A-4B24-B7D7-CFEBEAFD0135}"/>
+								<Event Name="R_BeamLoop" ID="{DD0F96CD-1EDB-40EF-859E-B40C60C907AC}"/>
+								<Event Name="R_KeyLock" ID="{DE2DAB02-6CA5-4D74-A6C0-36D556C1F506}">
+									<ChildrenList>
+										<Action Name="" ID="{C90148A2-934C-4CD5-BA95-924AA5DB1B9B}" ShortID="535634865">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ReflectorLock_Move_Value" ID="{36E8AC78-ABFB-4A19-A417-5C996DB3AC28}" WorkUnitID="{97816B18-B47C-4EC9-A2D3-90A277212B4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{46AAB25C-71BA-4156-B26A-EF85396C3680}" ShortID="473607956">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="reflector-lock" ID="{64990B6D-C50E-4FFF-AE1B-CEED709BDF98}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="R_KeyUnlock" ID="{1D1F702A-0E30-4FB7-8A11-8EC960786293}">
+									<ChildrenList>
+										<Action Name="" ID="{14F1B26A-1235-45C4-9674-EDCD7BE4AB7C}" ShortID="241985835">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ReflectorLock_Move_Value" ID="{36E8AC78-ABFB-4A19-A417-5C996DB3AC28}" WorkUnitID="{97816B18-B47C-4EC9-A2D3-90A277212B4A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C90F2365-37AE-40C9-8ADD-C44C90BC4EFD}" ShortID="1009419189">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="reflector-unlock" ID="{D6DE96D4-AA26-4BDA-84B0-B31C5213633A}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="R_LanternStart_Loop" ID="{2EF21C77-687A-46F4-8922-42EAF9A6EC5C}">
+									<ChildrenList>
+										<Action Name="" ID="{B449B0F7-BFEC-4A84-A1DD-142DFA80E7C9}" ShortID="926838322">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="beam_StartAndLoop" ID="{01CE5F37-0362-4B60-9782-A9E760CD4063}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="ReflectorKeyPuzzle" ID="{FB6A6A00-3B94-4E81-9941-D51A19EF43FF}" ShortID="260911036"/>
+						<Folder Name="TemplePuzzle" ID="{62EC3663-892F-4509-A0BC-ADE1541DA62B}" ShortID="941235852"/>
+						<Folder Name="BearPuzzle" ID="{D88B6673-4D02-4641-BBF5-BEA3C3171367}" ShortID="673449338">
+							<ChildrenList>
+								<Event Name="BP_TurnDial" ID="{E661D1BD-36F4-4D61-A861-5E43DE45DF79}">
+									<ChildrenList>
+										<Action Name="" ID="{9C735B63-7C63-40EF-9E7D-D54B9BDB1CF8}" ShortID="618948693">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="bearRotateDial" ID="{DAED1EA0-4CEA-458F-B050-7AB74E51B6BB}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BP_FlipSwitch" ID="{917FC2CA-103A-4691-9533-12F157A96567}">
+									<ChildrenList>
+										<Action Name="" ID="{DEE1D827-0E86-4041-85A7-14B560F87367}" ShortID="776357663">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="bearSwitchOnOff" ID="{10DF0E32-E35A-4C9E-A605-687F31CBF021}" WorkUnitID="{F8CBF62D-9776-420A-B392-BD543FA1E792}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BP_PlayChime" ID="{48F7C3E2-44FA-4495-829F-EF35F5044AF9}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI_Events" ID="{5CCBA558-6756-496A-849A-CF0292889BDD}" ShortID="1023905978"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

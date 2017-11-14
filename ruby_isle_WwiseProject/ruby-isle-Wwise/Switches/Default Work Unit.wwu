@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB0BE8F7-4947-40D1-9A89-C50B2897D688}" SchemaVersion="80">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{EB0BE8F7-4947-40D1-9A89-C50B2897D688}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="ReflectorLockState" ID="{C94C72E2-87CC-4E99-8F5A-941B12AFF2FF}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Locked" ID="{EB69C025-9A45-42F3-8117-8E601688ACFE}"/>
+						<Switch Name="Unlocked" ID="{709FAA00-D6B3-42A9-975D-FA803776DC91}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="ReflectorLock_Move_Value" ID="{36E8AC78-ABFB-4A19-A417-5C996DB3AC28}"/>
+						<Curve Name="" ID="{6891D97B-7C27-47C5-AB3D-5AD6C2403EB7}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.9843</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.96859</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="PickupSwitch" ID="{07C21744-9092-47E9-9671-75963D0B69F5}">
+					<ChildrenList>
+						<Switch Name="cluebook" ID="{F0969C1C-3EC7-4FE0-BC20-2DB02ADA009F}"/>
+						<Switch Name="key" ID="{A5C2BA50-B8CF-4BCE-BD5B-630404808992}"/>
+						<Switch Name="shipsHelm" ID="{EC87DFE1-9A20-4EC0-8C4A-3494ED5CA1F4}"/>
+						<Switch Name="wrench" ID="{4F988EE5-0A0B-4786-A0B0-4EA0CB22500C}"/>
+						<Switch Name="handle" ID="{48821748-12AC-472C-B499-6B76523CE0FE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="FootSurface" ID="{A5522138-DA70-4FDA-A7A2-8AB46233BD96}">
+					<ChildrenList>
+						<Switch Name="dirt_grass" ID="{D462DF12-25A1-4FD0-8AB0-20859131097A}"/>
+						<Switch Name="wood_floor" ID="{C792931C-9E8B-4CFD-9747-E517A4AA9772}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="ReflectorRotate" ID="{180F8FF0-AE6B-44FC-8F8E-5DC4A5442BFD}">
+					<ChildrenList>
+						<Switch Name="rotateL" ID="{05567775-358E-40C0-BF98-EE5F777B4141}"/>
+						<Switch Name="rotateR" ID="{A492B570-B203-4B49-AA5E-FBA8FAF7A056}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

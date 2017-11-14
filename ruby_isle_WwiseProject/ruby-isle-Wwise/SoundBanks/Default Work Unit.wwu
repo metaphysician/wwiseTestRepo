@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D1C04DD7-587F-4520-AC65-23D693CD1938}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D1C04DD7-587F-4520-AC65-23D693CD1938}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainBank" ID="{7A1412FB-00A1-4FFA-8790-38BC204DB23F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambience2D_Filter" ID="{3FF3B5C5-6961-4000-AFF8-E0426F8EB29F}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Door" ID="{567AB069-BC5D-40F5-8FC9-88D0C09C6F4C}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_Switch_unlocked" ID="{EF0634D1-0BF8-412A-A8B6-D0B4F51631A2}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_OneShot" ID="{1FE280CF-FBFB-4324-88F6-06229FFE7E6F}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_waves_lighthouse" ID="{643806BA-A462-4411-9BB3-5C14A1FE0279}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_amb_IslandOutdoors" ID="{13DE2C02-2DAC-4424-AEB0-938224118821}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footstep_L" ID="{6F8B7B23-4760-4552-8D6D-69156A28DD28}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BP_FlipSwitch" ID="{917FC2CA-103A-4691-9533-12F157A96567}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="R_LanternStart_Loop" ID="{2EF21C77-687A-46F4-8922-42EAF9A6EC5C}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="R_RotateL" ID="{53386E69-40FD-4782-8005-BC0435AFAE11}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_Switch_locked" ID="{286D2D8E-D6F1-48CC-BC29-A84FBF400A43}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MP_HandlePull" ID="{2599ACD8-60E7-4A34-AD85-D78317302C24}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footstep_R" ID="{E4F5A144-289A-4D0B-A22B-4E32F208E3B7}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MP_MarbleDrop" ID="{EC594BA4-957F-4D35-A33F-22C319C7F6C2}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BP_TurnDial" ID="{E661D1BD-36F4-4D61-A861-5E43DE45DF79}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="R_KeyLock" ID="{DE2DAB02-6CA5-4D74-A6C0-36D556C1F506}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ReflectorRotate" ID="{FE0F66EC-2032-4EAF-B314-886CEBE2C07B}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="R_KeyUnlock" ID="{1D1F702A-0E30-4FB7-8A11-8EC960786293}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience2D_NoFilter" ID="{DCDD376F-BC86-4FCD-A0FA-0A4D77F7DCFE}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ObjectPickup" ID="{2D98F9AE-840E-4FF9-A49F-6733939CE0A5}" WorkUnitID="{3801D9C6-1FBC-4476-9C59-A773F680939E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
